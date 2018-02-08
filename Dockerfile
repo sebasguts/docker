@@ -26,7 +26,8 @@ RUN apt-get update -qq && apt-get -qq install -y apt-transport-https  \
 	python-dev \
 	sudo \
 	wget \
-    xsltproc
+    xsltproc \
+        ninja-build
 		
 ### create a user polymake
 ### give it sudo access, nopassword
